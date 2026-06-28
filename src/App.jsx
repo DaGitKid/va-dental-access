@@ -100,11 +100,12 @@ function App() {
             <header className="panel-header">
               <div className="panel-title-row">
                 <h2>Medicaid reimbursement vs. peer states</h2>
-                <span className="placeholder-badge">Placeholder data</span>
               </div>
               <p className="panel-note">
-                Each state's Medicaid rate shown as a percentage of Minnesota's
-                (the high benchmark). The gap below 100% is the access story.
+                Each state's Medicaid rate as a percentage of Minnesota's (the
+                high benchmark). VA averages 87% of MN across these procedures —
+                but the gap is widest on preventive/diagnostic care (cleanings,
+                evaluations, X-rays) and narrowest on restorative/surgical care.
                 Raw dollar amounts in the tooltip.
               </p>
             </header>
@@ -115,7 +116,6 @@ function App() {
             <header className="panel-header">
               <div className="panel-title-row">
                 <h2>Provider participation over time</h2>
-                <span className="placeholder-badge">Placeholder data</span>
               </div>
               <p className="panel-note">{trendNote}</p>
             </header>

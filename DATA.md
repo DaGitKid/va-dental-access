@@ -38,9 +38,9 @@ Replace the function in `placeholderRates.js` with a lookup.
 ## 2. Multi-state reimbursement rates
 
 **Placeholder file:** `src/data/placeholderReimbursement.js`
-**Status:** 🔴 Not started
+**Status:** ✅ Integrated — 2026-06-27
 
-**What we need:** For 5 CDT codes (D0150, D1110, D2140, D7140, D2740), the Medicaid fee-schedule amount for **Virginia, Maryland, North Carolina, and Minnesota**.
+**What we need:** For 5 CDT codes (D0150, D1110, D2140, D7140, D2740), the Medicaid fee-schedule amount for **Virginia, Maryland, North Carolina, and Minnesota**. (Now integrated with 8 codes per `reimbursement.csv`.)
 
 **Sources:**
 - **VA Medicaid dental fee schedule** — DMAS, annual PDF.
@@ -49,14 +49,14 @@ Replace the function in `placeholderRates.js` with a lookup.
 
 **Integration path:** Edit the `rawData` array in place. Same field names: `{ code, label, va, md, nc, mn }`. The MN-normalized percentages are computed downstream automatically.
 
-**Raw files in `data/raw/`:** _(none yet)_
+**Raw files in `data/raw/`:** `reimbursement.csv` (added 2026-06-27)
 
 ---
 
 ## 3. Provider participation over time
 
 **Placeholder file:** `src/data/placeholderTrend.js`
-**Status:** 🔴 Not started
+**Status:** ✅ Integrated — 2026-06-27 (FY10–FY22; three years verified from DMAS, rest interpolated)
 
 **What we need:** Statewide count of active Medicaid-billing dentists by fiscal year (ideally FY18–latest). Per-locality history is bonus.
 
@@ -67,21 +67,23 @@ Replace the function in `placeholderRates.js` with a lookup.
 
 **Integration path:** Replace `trendData` with real `{ year, dentists }` rows. Per-locality: replace `localityTrend(fips)` with a lookup.
 
-**Raw files in `data/raw/`:** _(none yet)_
+**Raw files in `data/raw/`:** `trend.csv` (added 2026-06-27)
 
 ---
 
 ## 4. Headline stats
 
 **Placeholder file:** `src/data/placeholderStats.js`
-**Status:** 🟡 Partial — Card 1 (27%) is sourced from your stated DMAS 2022 figure; cards 2 and 3 are placeholder.
+**Status:** ✅ Integrated — 2026-06-27. Cards 1 and 2 sourced from the DMAS Access Report Nov 2022 (p. 3); card 3 remains 🟡 placeholder (HCCI national estimate, awaiting VHI Virginia-specific data).
 
 **What we need:**
 - Card 1 (27% participation): the DMAS 2022 report itself, so we can cite the URL + page.
 - Card 2 (members per participating dentist): VA Medicaid total enrollment ÷ count of participating dentists. Both DMAS.
 - Card 3 (avg dental ER visit cost): VHI hospital discharge data or CMS regional estimate.
 
-**Raw files in `data/raw/`:** _(none yet)_
+**Bonus stat from this CSV not yet surfaced on the dashboard:** `southwest_ratio: 1,812:1` — Medicaid members per dentist in Southwest Virginia 2021 (DMAS, verified). Marked as "worst geographic gap in state." Candidate for a new "Geographic gap" callout if you want one.
+
+**Raw files in `data/raw/`:** `stats.csv` (added 2026-06-27)
 
 ---
 

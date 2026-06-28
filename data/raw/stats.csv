@@ -1,0 +1,5 @@
+card,value,unit,label,verified,source,note
+participation_rate,26.9,percent,Virginia dentists treating Medicaid patients FY2022,true,DMAS Access Report November 2022 p.3,Remove placeholder badge
+members_per_dentist,1014,ratio,Medicaid members per participating dentist statewide 2021,true,DMAS Access Report November 2022 p.3,Remove placeholder badge
+dental_er_cost,749,dollars,Average dental-related ER visit cost,false,HCCI 2021 national estimate,Keep placeholder badge — needs VHI Virginia-specific data request
+southwest_ratio,1812,ratio,Members per dentist in Southwest Virginia 2021,true,DMAS Access Report November 2022 p.3,Worst geographic gap in state

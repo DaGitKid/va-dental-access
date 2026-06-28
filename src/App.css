@@ -328,6 +328,43 @@
   margin: 6px 0 4px;
 }
 
+.trend-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.trend-legend {
+  display: flex;
+  gap: 18px;
+  font-size: 11px;
+  color: var(--text-muted);
+  padding-left: 4px;
+}
+
+.trend-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.trend-dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1.5px solid #232d4b;
+  box-sizing: border-box;
+}
+
+.trend-dot-verified {
+  background: #232d4b;
+}
+
+.trend-dot-estimated {
+  background: #ffffff;
+}
+
 .chart-tooltip-aside {
   font-size: 11px;
   color: var(--text-soft);
