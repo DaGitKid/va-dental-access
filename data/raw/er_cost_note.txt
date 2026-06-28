@@ -1,0 +1,25 @@
+ER COST DATA — STATUS NOTE
+June 27, 2026
+
+VHI dental-specific ER cost data requires a paid data request via vhi.org/data/hospital-discharge-data/
+This is NOT a free public query — VHI charges for custom pulls from their hospital discharge database.
+
+Best available public proxy:
+- Virginia general ER visit (medium severity, code 99283): median allowed $1,091 (VHI 2020 report, based on 2018 data)
+- Add ~20% medical inflation from 2018 to 2022 estimate: ~$1,309
+- Dental-related ER visits tend to be LOWER severity/cost than general ER average
+- National estimates (HCCI 2021): dental ER visits average $749-$900
+
+RECOMMENDED ACTION:
+Request through Senator Srinivasan's office. DMAS has access to VHI data and can pull
+dental-related ER visits (ICD-10 codes K00-K14 = dental/oral cavity diagnoses) for Virginia
+Medicaid members specifically. This is the most credible Virginia-specific number and
+it requires the same DMAS data request you're already filing for locality participation rates.
+
+ICD-10 codes to request: K00-K14 (diseases of oral cavity), K08.8 (toothache),
+K04 (diseases of pulp and periapical tissues), K02 (dental caries)
+
+FOR THE DASHBOARD STAT CARD NOW:
+Use $749 with "national estimate" label and keep placeholder badge on.
+Source: Health Care Cost Institute (HCCI), 2021 analysis of dental-related ER visits
+

@@ -1,14 +1,18 @@
-year,dentists,verified
-FY10,1092,true
-FY11,1200,false
-FY12,1400,false
-FY13,1550,false
-FY14,1650,false
-FY15,1720,false
-FY16,1780,false
-FY17,1850,false
-FY18,1929,true
-FY19,1870,false
-FY20,1820,false
-FY21,1800,false
-FY22,1782,true
+year,dentists,verified,source,notes
+FY06,855,true,DMAS Annual Report 2009 Table 1 (rga.lis.virginia.gov/Published/2009/RD367/PDF),September 2006 count
+FY07,1007,true,DMAS Annual Report 2009 Table 1,September 2007 count
+FY08,1128,true,DMAS Annual Report 2009 Table 1,September 2008 count
+FY09,1264,true,DMAS Annual Report 2009 Table 1,August 2009 count
+FY10,1496,true,DentaQuest RFP response Jan 2011 (statehealthpartners.com) — December 31 2010 count,141% increase since 2005 start
+FY11,1600,false,interpolated,Between FY10=1496 and FY12 trend toward 1929 peak
+FY12,1700,false,interpolated,DMAS 2014 biennial report notes ~1900 by 2014
+FY13,1800,false,interpolated,
+FY14,1900,false,interpolated,DMAS 2014 biennial report states approximately 1900 general dentists participating
+FY15,1910,false,interpolated,
+FY16,1920,false,interpolated,
+FY17,1925,false,interpolated,
+FY18,1929,true,DMAS Access Report November 2022 p.3 (dmas.virginia.gov/media/6313/dmas-access-report-2022.pdf),Peak year
+FY19,1870,false,interpolated,7.6% decline from FY18 to FY22 per DMAS 2022 report
+FY20,1820,false,interpolated,
+FY21,1800,false,interpolated,
+FY22,1782,true,DMAS Access Report November 2022 p.3,Post-decline trough before 30% rate increase

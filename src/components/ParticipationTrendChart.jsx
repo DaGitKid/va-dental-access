@@ -31,6 +31,9 @@ function ChartTooltip({ active, payload, label }) {
       <div className="chart-tooltip-note">
         {row.verified ? 'Verified' : 'Estimated / interpolated'}
       </div>
+      {row.source && (
+        <div className="chart-tooltip-source">{row.source}</div>
+      )}
     </div>
   )
 }

@@ -56,7 +56,7 @@ Replace the function in `placeholderRates.js` with a lookup.
 ## 3. Provider participation over time
 
 **Placeholder file:** `src/data/placeholderTrend.js`
-**Status:** ✅ Integrated — 2026-06-27 (FY10–FY22; three years verified from DMAS, rest interpolated)
+**Status:** ✅ Integrated — 2026-06-27 (FY06–FY22; seven years verified from DMAS Annual Report 2009 + DentaQuest 2011 RFP + DMAS Access Report Nov 2022, remaining ten years interpolated with notes)
 
 **What we need:** Statewide count of active Medicaid-billing dentists by fiscal year (ideally FY18–latest). Per-locality history is bonus.
 
@@ -67,7 +67,7 @@ Replace the function in `placeholderRates.js` with a lookup.
 
 **Integration path:** Replace `trendData` with real `{ year, dentists }` rows. Per-locality: replace `localityTrend(fips)` with a lookup.
 
-**Raw files in `data/raw/`:** `trend.csv` (added 2026-06-27)
+**Raw files in `data/raw/`:** `trend.csv` (latest version added 2026-06-27 via dmas.zip; supersedes earlier `files.zip` version)
 
 ---
 
@@ -83,7 +83,9 @@ Replace the function in `placeholderRates.js` with a lookup.
 
 **Bonus stat from this CSV not yet surfaced on the dashboard:** `southwest_ratio: 1,812:1` — Medicaid members per dentist in Southwest Virginia 2021 (DMAS, verified). Marked as "worst geographic gap in state." Candidate for a new "Geographic gap" callout if you want one.
 
-**Raw files in `data/raw/`:** `stats.csv` (added 2026-06-27)
+**ER cost research note:** see `data/raw/er_cost_note.txt`. Best Virginia-specific proxy is a $1,091–$1,309 estimate derived from VHI 2020 hospital discharge data; getting a true Virginia dental-ER number requires a DMAS data pull (ICD-10 K00–K14). Current dashboard value ($749, HCCI national) remains placeholder per the note's recommendation.
+
+**Raw files in `data/raw/`:** `stats.csv` (added 2026-06-27), `er_cost_note.txt` (added 2026-06-27 via dmas.zip)
 
 ---
 
