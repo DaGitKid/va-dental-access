@@ -90,23 +90,52 @@ Replace the function in `placeholderRates.js` with a lookup.
 ## 5. Loudoun County spotlight
 
 **Placeholder file:** `src/data/placeholderLoudoun.js`
-**Status:** 🔴 Not started
+**Status:** 🟡 Partial — verified context (population, HPSA designation, HPSA pop served) integrated 2026-06-27; three core stats still 🔴 placeholder pending DMAS data request
 
-**What we need:** Loudoun-specific Medicaid enrollment count, locality participation rate, and members-per-participating-dentist ratio.
+**What we need (still):**
+- Loudoun Medicaid enrollment (requires DMAS locality enrollment report)
+- Loudoun participation rate (requires DMAS provider directory)
+- Loudoun members-per-dentist ratio (derives from the above)
 
-**Sources:** DMAS enrollment by locality (monthly reports); cross-referenced with Loudoun's slice of the provider directory.
+**What we have:**
+- Population 420,959 (Census ACS 5-yr 2022)
+- Federal Dental HPSA designation, score 17 (HRSA BCD_HPSA, June 2026)
+- HPSA population served: 42,083 — Loudoun Community Health Center FQHC
 
-**Raw files in `data/raw/`:** _(none yet)_
+**Raw files in `data/raw/`:** `loudoun_spotlight.csv` (added 2026-06-27)
 
 ---
 
-## 6. Supporting datasets (not yet visualized)
+## 6. HRSA Dental HPSAs
 
-These would strengthen the dashboard's narrative if added later.
+**Module:** `src/data/vaHpsa.js`
+**Status:** ✅ Integrated — 2026-06-27. 112 of 133 VA localities designated (84%); HPSA score + designation type per locality.
 
-- **HRSA Dental HPSAs** — `data.hrsa.gov/data/download` (BCD HPSA Dental). Locality-level access overlay.
-- **Census ACS 5-year locality population** — free via `api.census.gov/data/2022/acs/acs5?get=NAME,B01003_001E&for=county:*&in=state:51`. Denominator for per-capita stats.
+**Surfaced where:**
+- Map tooltip — every locality with HPSA data shows score + first designation type
+- About section — `"84% of Virginia's 133 localities carry a federal Dental HPSA designation"` (computed live from this dataset)
+
+**Raw files in `data/raw/`:** `hpsa_dental_va.csv` (added 2026-06-27)
+
+---
+
+## 7. Census ACS locality population
+
+**Module:** `src/data/vaPopulation.js`
+**Status:** ✅ Integrated — 2026-06-27. 25 most-populous localities sourced.
+
+**Surfaced where:**
+- Map tooltip — locality population shown when available
+- Loudoun spotlight — explicit population figure (420,959)
+
+**Raw files in `data/raw/`:** `va_population.csv` (added 2026-06-27)
+
+---
+
+## 8. Other supporting datasets (not yet integrated)
+
 - **VA Medicaid enrollment by locality** — DMAS monthly reports. Enables a "Medicaid enrollees per participating dentist" map overlay.
+- **Commercial reimbursement rates** — ADA Health Policy Institute state-level averages. Member-restricted; flagged in `data/raw/reimbursement_notes.txt`. Adding a `commercial` column to `reimbursement.csv` would let us show the Medicaid-vs-commercial gap directly on the reimbursement chart.
 
 ---
 

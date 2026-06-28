@@ -1,0 +1,113 @@
+fips,county,hpsa_designated,hpsa_score,designation_types,verified,source
+51001,Accomack,true,21,Federally Qualified Health Center|HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51005,Alleghany,true,17,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51007,Amelia,true,16,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51009,Amherst,true,16,"HPSA Population|Indian Health Service, Tribal Health, and Urban Indian Health Organizations",true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51011,Appomattox,true,16,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51013,Arlington,true,9,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51015,Augusta,true,8,Correctional Facility|Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51017,Bath,true,17,High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51019,Bedford,true,12,High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51021,Bland,true,19,Correctional Facility|Federally Qualified Health Center|Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51023,Botetourt,true,16,High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51025,Brunswick,true,9,Correctional Facility|High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51027,Buchanan,true,21,Correctional Facility|High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51029,Buckingham,true,25,Correctional Facility|Federally Qualified Health Center|High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51031,Campbell,true,16,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51033,Caroline,true,12,Correctional Facility,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51035,Carroll,true,21,Federally Qualified Health Center|HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51037,Charlotte,true,18,High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51045,Craig,true,10,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51047,Culpeper,true,11,Correctional Facility|High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51049,Cumberland,true,16,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51051,Dickenson,true,19,High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51053,Dinwiddie,true,13,High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51057,Essex,true,11,High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51059,Fairfax,true,21,Federally Qualified Health Center|HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51063,Floyd,true,16,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51067,Franklin,true,15,High Needs Geographic HPSA|Rural Health Clinic,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51069,Frederick,true,15,HPSA Population|Rural Health Clinic,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51071,Giles,true,17,Geographic HPSA|Rural Health Clinic,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51077,Grayson,true,18,Correctional Facility|HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51081,Greensville,true,9,Correctional Facility|Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51083,Halifax,true,18,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51089,Henry,true,17,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51091,Highland,true,15,Federally Qualified Health Center,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51093,Isle of Wight,true,14,Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51095,James City,true,15,Rural Health Clinic,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51097,King and Queen,true,19,"High Needs Geographic HPSA|Indian Health Service, Tribal Health, and Urban Indian Health Organizations",true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51099,King George,true,8,Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51101,King William,true,17,"Indian Health Service, Tribal Health, and Urban Indian Health Organizations",true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51103,Lancaster,true,13,Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51105,Lee,true,24,Correctional Facility|Federally Qualified Health Center|High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51107,Loudoun,true,17,Federally Qualified Health Center,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51109,Louisa,true,8,High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51111,Lunenburg,true,21,Correctional Facility|Federally Qualified Health Center|High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51115,Mathews,true,14,Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51117,Mecklenburg,true,21,Correctional Facility|Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51119,Middlesex,true,10,Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51121,Montgomery,true,25,Federally Qualified Health Center|HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51125,Nelson,true,23,Federally Qualified Health Center|Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51131,Northampton,true,18,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51133,Northumberland,true,13,Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51135,Nottoway,true,15,Correctional Facility|High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51137,Orange,true,12,Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51139,Page,true,16,HPSA Population|Rural Health Clinic,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51141,Patrick,true,17,HPSA Population|Rural Health Clinic,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51143,Pittsylvania,true,12,Correctional Facility|Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51147,Prince Edward,true,16,High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51149,Prince George,true,12,Correctional Facility,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51153,Prince William,true,23,Federally Qualified Health Center,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51155,Pulaski,true,19,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51157,Rappahannock,true,13,High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51159,Richmond,true,12,Correctional Facility|Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51161,Roanoke,true,16,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51163,Rockbridge,true,21,Federally Qualified Health Center|HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51165,Rockingham,true,17,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51167,Russell,true,18,HPSA Population|Rural Health Clinic,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51169,Scott,true,25,Federally Qualified Health Center|HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51171,Shenandoah,true,15,High Needs Geographic HPSA|Rural Health Clinic,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51173,Smyth,true,25,Federally Qualified Health Center|HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51175,Southampton,true,23,Correctional Facility|Federally Qualified Health Center|High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51177,Spotsylvania,true,15,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51181,Surry,true,12,High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51183,Sussex,true,21,Correctional Facility|Federally Qualified Health Center|High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51185,Tazewell,true,17,Correctional Facility|Geographic HPSA|Rural Health Clinic,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51187,Warren,true,15,High Needs Geographic HPSA|Rural Health Clinic,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51191,Washington,true,13,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51193,Westmoreland,true,12,Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51195,Wise,true,17,Correctional Facility|HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51197,Wythe,true,17,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51199,York,true,17,Other Facility,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51510,Alexandria City,true,9,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51520,Bristol City,true,13,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51530,Buena Vista City,true,15,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51540,Charlottesville City,true,17,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51550,Chesapeake City,true,6,Correctional Facility,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51570,Colonial Heights City,true,17,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51580,Covington City,true,17,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51590,Danville City,true,25,Federally Qualified Health Center|Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51595,Emporia City,true,9,Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51620,Franklin City,true,6,High Needs Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51630,Fredericksburg City,true,15,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51640,Galax City,true,18,HPSA Population|Rural Health Clinic,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51650,Hampton City,true,9,Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51660,Harrisonburg City,true,23,Federally Qualified Health Center|HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51670,Hopewell City,true,19,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51678,Lexington City,true,15,HPSA Population|Rural Health Clinic,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51680,Lynchburg City,true,25,Federally Qualified Health Center|Federally Qualified Health Center Look A Like|HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51690,Martinsville City,true,25,Federally Qualified Health Center|HPSA Population|Rural Health Clinic,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51700,Newport News City,true,25,Federally Qualified Health Center|HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51710,Norfolk City,true,11,Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51720,Norton City,true,17,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51730,Petersburg City,true,17,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51740,Portsmouth City,true,25,Federally Qualified Health Center|Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51750,Radford City,true,19,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51760,Richmond City,true,25,"Federally Qualified Health Center|HPSA Population|Indian Health Service, Tribal Health, and Urban Indian Health Organizations",true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51770,Roanoke City,true,25,Federally Qualified Health Center|HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51775,Salem City,true,16,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51790,Staunton City,true,8,Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51800,Suffolk City,true,8,Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51820,Waynesboro City,true,8,Geographic HPSA,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51830,Williamsburg City,true,15,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026
+51840,Winchester City,true,15,HPSA Population,true,HRSA BCD_HPSA_FCT_DET_DH.xlsx as of June 26 2026

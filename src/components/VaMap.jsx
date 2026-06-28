@@ -4,9 +4,13 @@ import { scaleSequential } from 'd3-scale'
 import { interpolateBlues } from 'd3-scale-chromatic'
 import { feature } from 'topojson-client'
 import { placeholderRate } from '../data/placeholderRates'
+import { vaHpsa } from '../data/vaHpsa'
+import { vaPopulation } from '../data/vaPopulation'
 
 const VA_FIPS_PREFIX = '51'
 const ASPECT = 0.55
+
+const formatInt = (n) => n.toLocaleString()
 
 export function VaMap({ selectedId, onSelectLocality }) {
   const [topology, setTopology] = useState(null)
@@ -108,9 +112,16 @@ export function VaMap({ selectedId, onSelectLocality }) {
                 fill={colorScale(rate)}
                 stroke={stroke}
                 strokeWidth={strokeWidth}
-                onMouseEnter={() =>
-                  setHovered({ id: f.id, name: f.properties.name, rate })
-                }
+                onMouseEnter={() => {
+                  const fips = f.id
+                  setHovered({
+                    id: fips,
+                    name: f.properties.name,
+                    rate,
+                    population: vaPopulation[fips]?.population ?? null,
+                    hpsa: vaHpsa[fips] ?? null,
+                  })
+                }}
                 onMouseLeave={() => setHovered(null)}
                 onClick={() => handleClick(f)}
                 style={{ cursor: 'pointer' }}
@@ -125,8 +136,23 @@ export function VaMap({ selectedId, onSelectLocality }) {
           <div className="map-tooltip-name">{hovered.name}</div>
           <div className="map-tooltip-value">
             {Math.round(hovered.rate * 100)}% participation
+            <span className="map-tooltip-tag">placeholder</span>
           </div>
-          <div className="map-tooltip-note">Placeholder data</div>
+          {hovered.population !== null && (
+            <div className="map-tooltip-fact">
+              Population {formatInt(hovered.population)}
+              <span className="map-tooltip-source">Census 2022</span>
+            </div>
+          )}
+          {hovered.hpsa && (
+            <div className="map-tooltip-fact">
+              Dental HPSA · score {hovered.hpsa.score}
+              <span className="map-tooltip-source">
+                {hovered.hpsa.designationTypes[0]}
+                {hovered.hpsa.designationTypes.length > 1 ? ' +' : ''}
+              </span>
+            </div>
+          )}
         </div>
       )}
 

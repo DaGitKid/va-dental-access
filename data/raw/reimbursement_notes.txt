@@ -1,0 +1,23 @@
+REIMBURSEMENT CSV NOTES — June 27 2026
+
+Virginia (va): VA Cardinal Care Smiles Fee Schedule effective 07/01/2024
+URL: https://www.dmas.virginia.gov/media/wa4jhogz/va-cardinal-care-smiles-fee-schedule-070124_final.pdf
+VERIFIED: D0120=$26.99, D1110=$63.19, D2140=$79.51, D2150=$101.14, D2330=$99.46, D0150=$41.92, D0330=$72.30, D3310=$502.13
+D7140 NOT in VA fee schedule PDF pulled — needs manual lookup in full document
+
+Maryland (md): Maryland Healthy Smiles Dental Program Fee Schedule CDT 2025 effective 08/01/2023
+URL: https://health.maryland.gov/mmcp/Documents/2025%20Dental%20Fee%20Schedule%20and%20Procedure%20Codes.pdf
+VERIFIED: D0120=$31.81, D1110=$67.12, D2140=$73.85, D2150=$92.84, D2330=$96.95, D0150=$56.34, D0330=$45.95
+D7140 and D3310 not pulled — needs manual lookup
+
+North Carolina (nc): NC Medicaid Dental Fee Schedule effective 02/10/2022
+URL: https://medicaid.ncdhhs.gov/dental-fee-schedule-general-2-10-2022pdf/open
+VERIFIED: D0120=$26.96, D1110=$39.83, D2140=$78.12, D2150=$98.99, D2330=$68.90, D0150=$46.65, D0330=$61.95, D7140=$52.97, D3310=$296.52
+
+Minnesota (mn): MSDA National Profile 2023 — rates from national profile, NOT pulled from state fee schedule PDF directly
+FLAG: Verify against MN DHS fee schedule at mn.gov/dhs
+VERIFIED from MSDA profile: D0120=$32.93, D1110=$89.18, D2140=$87.54
+
+Commercial column: NOT YET POPULATED
+Source needed: ADA Health Policy Institute state-level commercial averages
+Access: ADA member restricted — request through Senator Srinivasan's ADA contacts or use public ADA summary documents

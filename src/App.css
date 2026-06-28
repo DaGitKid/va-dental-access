@@ -248,6 +248,38 @@
   text-transform: uppercase;
 }
 
+.map-tooltip-tag {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #8a5800;
+  background: #fef3c7;
+  padding: 1px 6px;
+  border-radius: 999px;
+  vertical-align: middle;
+}
+
+.map-tooltip-fact {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--text-muted);
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.map-tooltip-source {
+  font-size: 10px;
+  color: var(--text-soft);
+  font-style: italic;
+  flex-shrink: 0;
+}
+
 .map-legend {
   display: flex;
   align-items: center;
@@ -433,11 +465,80 @@
   color: var(--accent);
 }
 
+.spotlight-verified {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 16px 18px;
+}
+
+.spotlight-verified-label {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.spotlight-verified-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.spotlight-verified-list li {
+  display: grid;
+  grid-template-columns: minmax(180px, 1fr) auto auto;
+  align-items: baseline;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.spotlight-verified-key {
+  color: var(--text-muted);
+}
+
+.spotlight-verified-value {
+  color: var(--text);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.spotlight-verified-source {
+  font-size: 11px;
+  color: var(--text-soft);
+  font-style: italic;
+  text-align: right;
+  min-width: 200px;
+}
+
+.spotlight-pending {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.spotlight-pending-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-soft);
+  font-weight: 600;
+}
+
 .spotlight-stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
-  margin-top: 4px;
+  margin-top: 0;
 }
 
 .spotlight-stat {
@@ -502,6 +603,14 @@
 @media (max-width: 900px) {
   .spotlight-stats {
     grid-template-columns: 1fr;
+  }
+  .spotlight-verified-list li {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+  .spotlight-verified-value,
+  .spotlight-verified-source {
+    text-align: left;
   }
 }
 

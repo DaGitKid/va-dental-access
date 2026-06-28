@@ -1,4 +1,9 @@
 import { FOUNDER_NAME, ORG_NAME } from '../branding'
+import { HPSA_DESIGNATED_COUNT, HPSA_TOTAL_LOCALITIES } from '../data/vaHpsa'
+
+const hpsaShare = Math.round(
+  (HPSA_DESIGNATED_COUNT / HPSA_TOTAL_LOCALITIES) * 100,
+)
 
 export function AboutSection() {
   return (
@@ -25,11 +30,19 @@ export function AboutSection() {
           as necessary for meaningful provider participation.
         </p>
         <p>
-          Coverage without providers is paper coverage. This dashboard is the
-          first of three tools {ORG_NAME} is publishing — alongside a
-          community-verified provider directory and a national Medicaid dental
-          policy tracker — to surface that gap and the conditions that produce
-          it.
+          The shortage is geographic as well as financial.{' '}
+          <strong>
+            {hpsaShare}% of Virginia's {HPSA_TOTAL_LOCALITIES} localities —{' '}
+            {HPSA_DESIGNATED_COUNT} of them
+          </strong>{' '}
+          — carry a federal Dental Health Professional Shortage Area
+          designation. Coverage without providers is paper coverage.
+        </p>
+        <p>
+          This dashboard is the first of three tools {ORG_NAME} is publishing —
+          alongside a community-verified provider directory and a national
+          Medicaid dental policy tracker — to surface that gap and the
+          conditions that produce it.
         </p>
         <p className="about-byline">
           Founded by <strong>{FOUNDER_NAME}</strong>, a University of Virginia

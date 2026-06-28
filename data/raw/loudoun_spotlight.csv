@@ -1,0 +1,8 @@
+metric,value,unit,source,verified,note
+total_medicaid_enrollment_va,1791929,count,DMAS Enrollment Report April 2026,true,Statewide total — Loudoun-specific requires DMAS locality breakdown
+loudoun_population,420959,count,ACS 5-year 2022,true,
+loudoun_hpsa_designated,true,boolean,HRSA BCD_HPSA_FCT_DET_DH June 2026,true,Loudoun Community Health Center designated FQHC HPSA score 17
+loudoun_hpsa_population_served,42083,count,HRSA BCD_HPSA_FCT_DET_DH June 2026,true,Population served by Loudoun Community Health Center HPSA
+loudoun_medicaid_enrollees,NEEDED,count,DMAS locality enrollment report,false,Requires DMAS data request or locality enrollment file — request through Srinivasan office
+loudoun_participation_rate,NEEDED,percent,DMAS provider directory,false,Requires DMAS data request — no public locality-level participation data
+loudoun_members_per_dentist,NEEDED,ratio,DMAS provider directory,false,Derives from participation rate above
