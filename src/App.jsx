@@ -4,6 +4,7 @@ import { ORG_NAME } from './branding'
 import { AboutSection } from './components/AboutSection'
 import { AdvisorsSection } from './components/AdvisorsSection'
 import { LoudounSpotlight } from './components/LoudounSpotlight'
+import { SiteNav } from './components/SiteNav'
 import { ParticipationTrendChart } from './components/ParticipationTrendChart'
 import { ReimbursementChart } from './components/ReimbursementChart'
 import { StatCards } from './components/StatCards'
@@ -34,6 +35,7 @@ function App() {
 
   return (
     <div className="page">
+      <SiteNav activeTab="dashboard" />
       <header className="site-header">
         <p className="eyebrow">{ORG_NAME} · Research</p>
         <h1>Medicaid Dental Access in Virginia</h1>
