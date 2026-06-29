@@ -4,6 +4,7 @@ import { SiteFooter } from './components/SiteFooter'
 import { SiteNav } from './components/SiteNav'
 import { Dashboard } from './pages/Dashboard'
 import { Landing } from './pages/Landing'
+import { PolicyTracker } from './pages/PolicyTracker'
 import { ProviderFinder } from './pages/ProviderFinder'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Landing />} />
           <Route path="/dashboard" element={<DashboardPage />} />
           <Route path="/find-a-dentist" element={<FinderPage />} />
+          <Route path="/policy-tracker" element={<TrackerPage />} />
         </Routes>
         <SiteFooter />
       </div>
@@ -34,6 +36,14 @@ function FinderPage() {
   return (
     <div className="page">
       <ProviderFinder />
+    </div>
+  )
+}
+
+function TrackerPage() {
+  return (
+    <div className="page">
+      <PolicyTracker />
     </div>
   )
 }

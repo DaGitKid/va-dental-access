@@ -33,9 +33,9 @@ const PROJECTS = [
     title: 'National Policy Tracker',
     description:
       'A comparative database of state-level Medicaid dental legislation: reimbursement rates, bill status, participation outcomes.',
-    href: '#',
-    cta: 'Coming soon',
-    status: 'coming-soon',
+    href: '/policy-tracker',
+    cta: 'Open tracker',
+    status: 'live',
   },
 ]
 

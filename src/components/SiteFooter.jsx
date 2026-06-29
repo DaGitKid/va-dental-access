@@ -16,6 +16,7 @@ export function SiteFooter() {
           <Link to="/">Home</Link>
           <Link to="/dashboard">Dashboard</Link>
           <Link to="/find-a-dentist">Find a dentist</Link>
+          <Link to="/policy-tracker">Policy tracker</Link>
         </nav>
         <p className="site-footer-data">
           Visualizations render on a mix of verified and placeholder data; see

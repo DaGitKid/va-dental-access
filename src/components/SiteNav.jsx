@@ -4,7 +4,7 @@ import { ORG_NAME } from '../branding'
 const TABS = [
   { id: 'dashboard', label: 'Dashboard', href: '/dashboard' },
   { id: 'finder', label: 'Find a Dentist', href: '/find-a-dentist' },
-  { id: 'tracker', label: 'Policy Tracker', href: '#', comingSoon: true },
+  { id: 'tracker', label: 'Policy Tracker', href: '/policy-tracker' },
 ]
 
 export function SiteNav() {
