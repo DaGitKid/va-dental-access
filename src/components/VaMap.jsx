@@ -21,7 +21,7 @@ export function VaMap({ selectedId, onSelectLocality }) {
 
   useEffect(() => {
     let cancelled = false
-    fetch('/counties-10m.json')
+    fetch(`${import.meta.env.BASE_URL}counties-10m.json`)
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`)
         return r.json()
